@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="use_speex"
+        android:summaryOff="@string/use_speex_off"
+        android:summaryOn="@string/use_speex_on"
+        android:title="@string/use_speex_title" />
+
+    <ListPreference
+        android:defaultValue="1"
+        android:dependency="use_speex"
+        android:entries="@array/speex_quality"
+        android:entryValues="@array/speex_quality_values"
+        android:key="speex_quality"
+        android:summary="@string/speex_quality_summary"
+        android:title="@string/speex_quality_title" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="echo"
+        android:summaryOff="@string/echo_off"
+        android:summaryOn="@string/echo_on"
+        android:title="@string/echo_title" />
+    
+      <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="use_bluetooth"
+        android:summaryOff="@string/bluetooth_off"
+        android:summaryOn="@string/bluetooth_on"
+        android:title="@string/settings_bluetooth_title" />
+
+</PreferenceScreen>

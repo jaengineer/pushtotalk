@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp"
+        android:text="Gessan PTT"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/EditUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/EditPassword"
+        android:layout_alignLeft="@+id/EditPassword"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="text" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/EditPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/BotonEnviar"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword" >
+
+       
+    </EditText>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/EditUser"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_marginBottom="30dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/walkietalkie" />
+
+    <Button
+        android:id="@+id/BotonEnviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/EditPassword"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/EditPassword"
+        android:layout_marginBottom="29dp"
+        android:text="Entrar" />
+
+</RelativeLayout>

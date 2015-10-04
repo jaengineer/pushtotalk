@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/set_cast_and_port" >
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/cast_types"
+            android:entryValues="@array/cast_types_values"
+            android:key="cast_type"
+            android:summary="@string/cast_type_summary"
+            android:title="@string/cast_type_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/set_ip_addr" >
+        <EditTextPreference
+            android:defaultValue="@string/broadcast_addr_default"
+            android:inputType="phone"
+            android:key="broadcast_addr"           
+            android:singleLine="true"
+            android:summary="@string/broadcast_addr_summary"
+            android:title="@string/broadcast_addr_title" />
+        <EditTextPreference
+            android:defaultValue="@string/broadcast_port_default"
+            android:inputType="phone"
+            android:key="broadcast_port"           
+            android:singleLine="true"
+            android:summary="@string/broadcast_port_summary"
+            android:title="@string/broadcast_port_title" />
+        <EditTextPreference
+            android:defaultValue="@string/unicast_addr_default"
+            android:inputType="phone"
+            android:key="unicast_addr"            
+            android:singleLine="true"
+            android:summary="@string/unicast_addr_summary"
+            android:title="@string/unicast_addr_title" />
+        <EditTextPreference
+            android:defaultValue="@string/unicast_port_default"
+            android:inputType="phone"
+            android:key="unicast_port"            
+            android:singleLine="true"
+            android:summary="@string/unicast_port_summary"
+            android:title="@string/unicast_port_title" />
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/list_users"
+            android:entryValues="@array/list_users_values"
+            android:key="list_users"  
+            android:summary="%s"          
+            android:title="@string/list_users_title" />
+       		<!-- android:summary="%s" -->
+            <!-- android:summary="@string/list_users_summary" -->
+           
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="app_name">Gessan PTT</string>
+
+    <string name="settings_name">Configuración Push2Talk</string>
+    <string name="settings_label">MENU</string>
+    
+    <string name="settings_comm_name">Parámetros de comunicación</string>
+    <string name="settings_comm_label">Comunicación</string>
+   
+    
+    	<string name="set_cast_and_port">Envío</string>
+    
+   			<string name="cast_type_title">Tipo de envío</string>
+			<string name="cast_type_summary">Elige a dónde va dirigido el mensaje.</string>		
+		
+		<string name="set_ip_addr">Dirección IP y Puerto</string>		
+		
+			<string name="broadcast_addr_title">Dirección Broadcast</string>
+			<string name="broadcast_port_title">Puerto Broadcast</string>
+    		<string name="broadcast_addr_summary">Dirección IP del servidor brodcast</string>
+    		<string name="broadcast_port_summary">Puerto del servidor broadcast</string>
+    		<string name="broadcast_addr_default">62.82.171.162</string>	
+    		<string name="broadcast_port_default">9000</string>	          
+    	
+    		<string name="unicast_addr_title">Dirección Unicast</string>
+    		<string name="unicast_port_title">Puerto Unicast</string>
+    		<string name="unicast_addr_summary">Dirección IP del servidor unicast</string>
+    		<string name="unicast_port_summary">Puerto del servidor unicast</string>
+    		<string name="unicast_addr_default">62.82.171.162</string>  
+    		<string name="unicast_port_default">9001</string>  		
+    		
+    		<string name="list_users_title">Lista de usuarios</string>    
+    		<string name="list_users_summary">Selecciona un usuario para hablar</string>    	
+    		    	
+    <string name="settings_audio_name">Parámetros de audio</string>
+    <string name="settings_audio_label">Audio</string>
+    	
+		<string name="use_speex_title">Usar codec</string>
+		<string name="use_speex_on">Apagar</string>		
+		<string name="use_speex_off">Encender</string>    	    	
+    		
+    	<string name="speex_quality_title">Codec bit rate</string>    
+    	<string name="speex_quality_summary"></string>
+    	
+		<string name="echo_title">Echo</string>
+		<string name="echo_on">Apagar</string>		
+		<string name="echo_off">Encender</string>    		 
+		
+    <string name="settings_reset_all_name">Restaurar</string>
+    <string name="settings_reset_all_label">Restaurar</string>
+    <string name="setting_reset_all_confirm">Todos los parametros fueron restaurados a su valor por defecto</string>
+    
+    <string name="settings_bluetooth_title">bluetooth</string>	 
+	 <string name="bluetooth_on">Apagar</string>	
+	 <string name="bluetooth_off">Encender</string>	
+    	
+    <string name="exit_app">Salir</string>	
+    
+     <string name="quit_label">Quit</string>			
+    
+    <!-- GCM -->
+    
+     <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered">Device is already registered on server.</string>
+    <string name="gcm_registered">From GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="gcm_message">From GCM: you got message!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="server_registered">From Demo Server: successfully added device!</string>
+    <string name="server_unregistered">From Demo Server: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+    <string name="options_register">Register</string>
+    <string name="options_unregister">Unregister</string>
+    <string name="options_clear">Clear</string>
+    <string name="options_exit">Exit</string>		
+    
+    <!--  BLUETOOTH SAVOX -->
+    	 <!--  BluetoothChat -->
+    <string name="send">Send</string>
+    <string name="not_connected">No está conectado a ningún dispositivo</string>
+    <string name="bt_not_enabled_leaving">El Bluetooth no está activo. Abandonar Savox PTT.</string>
+    <string name="title_connecting">Conectando</string>
+    <string name="title_connected_to">Conectado: </string>
+    <string name="title_not_connected">No conectado</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">Buscando dispositivos</string>
+    <string name="select_device">Selecciona un dispositivo</string>
+    <string name="none_paired">No hay dispositivos pareados</string>
+    <string name="none_found">No se encontraron dispositivos</string>
+    <string name="title_paired_devices">Dispositivos pareados</string>
+    <string name="title_other_devices">Otros dispositivos disponibles</string>
+    <string name="button_scan">Buscar dispositivos</string>
+
+    <!-- Options Menu -->
+    <string name="insecure_connect">Conectar Savox</string>
+    <string name="discoverable">Hacer visible</string>
+    <string name="ptt">PTT</string>
+    <string name="infoText"></string>
+    <!--  -->
+   <string name="pulsame">Usuarios</string>
+   <string name="usuarios">Usuarios</string>
+   
+    <string name="mensajes">Mensajes</string>
+     <string name="mapa">Mapa Usuarios</string>
+     <string name="posicionusuario">Ubicacion Usuarios</string>
+     <string name="enviarposicion">Enviar Posición</string>
+</resources>
